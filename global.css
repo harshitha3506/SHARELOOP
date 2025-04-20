@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+body {
+    background-color: #4B2E1F;
+    /* Dark brown */
+    color: white;
+    font-family: 'Baloo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.home-container {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Title Styling */
+.bubbly-title {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: #D2A679;
+    /* Light brown */
+    text-shadow: 4px 4px 0px #3A1F0F, 8px 8px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #E5C7A9;
+    /* Soft beige */
+    margin-bottom: 25px;
+}
+
+/* Welcome Message */
+.welcome-msg {
+    font-size: 20px;
+    color: #FFDAB9;
+    margin-bottom: 30px;
+}
+
+/* Options Section */
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.option {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.option img {
+    width: 120px;
+    height: 120px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.option img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+/* Logout Button */
+.logout-btn {
+    background-color: #D2A679;
+    color: #4B2E1F;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #EBC9A5;
+}
